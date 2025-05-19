@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1b1b1b;
+    color: #f0f0f0;
+    font-family: 'Cormorant Garamond', serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main.detay-container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: #e50914;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  hr {
+    border: 1px solid #444;
+    margin-bottom: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .detay-icerik {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .detay-icerik img {
+    width: 320px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  }
+  
+  .aciklama {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .bilgi-karti {
+    margin-top: auto;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+    opacity: 0.9;
+  }
+  
+  footer {
+    background-color: #111;
+    color: #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  .footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .footer-links a {
+    margin: 0 10px;
+    color: #e50914;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
