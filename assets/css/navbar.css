@@ -36,7 +36,6 @@
   text-shadow: -4px -1px 9px rgba(0, 0, 0, 0.47);
 }
 
-/* Checkbox gizlensin */
 #menu-toggle {
   display: none;
 }
@@ -65,7 +64,6 @@
   border-top: 1px solid #444;
 }
 
-/* Ekran küçülünce davranış */
 @media screen and (max-width: 768px) {
   .navbar-links {
     display: none;
