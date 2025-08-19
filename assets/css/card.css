@@ -155,9 +155,29 @@ body {
   opacity: 0;
 }
 
-/* === LİNK GENEL STİLİ === */
 a {
   cursor: pointer;
   text-decoration: none;
   color: white;
+}
+
+@media (min-width: 480px) {
+  .film-card { flex: 1 1 calc(50% - 16px); }
+}
+
+@media (min-width: 768px) {
+  .film-card { flex: 1 1 calc(33.333% - 16px); }
+}
+
+
+@media (min-width: 1024px) {
+  .film-card { flex: 1 1 calc(33.333% - 16px); }
+}
+
+@media (min-width: 1280px) {
+  .film-card { flex: 1 1 calc(25% - 16px); }
+}
+
+@media (min-width: 1600px) {
+  .film-card { flex: 1 1 calc(25% - 16px); height: 420px; }
 }
